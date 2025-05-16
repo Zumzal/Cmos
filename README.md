@@ -9,8 +9,12 @@ Core assignment
 - Explain which electrical parameters determine the frequency of the oscillator. Write this down with the appropriate formules as text in the .asc file.
   
 # Questions 
-- How does an oscillator work ? 
-- Why does exactly 3 nmos pmos pair make an oscillator ? 
-- Why do i need an odd number of nmos pmos pairs to have an oscillator ? 
+- How does an oscillator work ?
+  odd number of inverter because with an even number of inverter the sate of the circuit doesn't change 
+- Why does exactly 3 nmos pmos pair make an oscillator ?
+  3 or an odd number makes an oscillator
+- Why do i need an odd number of nmos pmos pairs to have an oscillator ?
+  see above  
 - Why does a pair number create an alternating signalvoltage soruce ?
-- using 0s of rise and fall time not realistic ? 
+- using 0s of rise and fall time not realistic ?
+  not realistic because even if you set the rise and fall time to 0 then the wire itself has a resistance, an impedance and a capacitance that is the course of potential slew in the rise and fall of the signal
